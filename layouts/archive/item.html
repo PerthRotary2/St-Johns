@@ -1,0 +1,12 @@
+<a href="{{ .Permalink }}" class="archive-item">
+	<h3>{{ .Title }}</h3>
+	{{ if isset .Params "image" }}
+		<img src="{{ .Params.image | absURL }}" class="img-fluid">
+	{{ end }}
+	{{ if .Params.summarize }}
+		<div>{{ .Summary }}</div>
+		<div class="more">More ...</div>
+	{{ else }}
+		<div>{{ .Content }}</div>
+	{{ end }}
+</a>

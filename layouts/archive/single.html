@@ -1,0 +1,21 @@
+{{ define "main" }}
+	<div class="container">
+		
+		{{ $date := (time .Date) }}
+		
+		<h2>{{ .Title }} {{ $date.Year }}</h2>
+		{{ if isset .Params "image" }}
+			<img src="{{ .Params.image | absURL }}" class="img-fluid mb-3">
+		{{ end }}
+		<div>{{ .Content }}</div>
+		<div class="footnote">
+			[{{ if not .Params.no_day }}
+				{{- $date.Day }}
+			{{ end }}
+			{{- $date.Month }}]
+		</div>
+						
+	</div>
+    
+{{ partial "script.html" . }}
+{{ end }}

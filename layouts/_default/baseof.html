@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "header" . }}
+    {{ if .IsHome }}
+    <meta name="description" content="{{ .Site.Params.SiteDescription }}">
+    {{ else }}
+      {{ with .Description }}
+    <meta name="description" content="{{ . }}">
+      {{ end }}
+    {{ end }}
+    {{ if .Params.noindex }}
+      <meta name="robots" content="noindex">
+    {{ end }}
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+  </head>
+  <body>
+    {{ partial "navbar" . }}
+    {{ partial "banner.html" . }}
+    {{ block "main" . }}{{ end }}
+  </body>
+</html>

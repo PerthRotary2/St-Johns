@@ -1,0 +1,11 @@
+<h3>{{ .Title }}</h3>
+{{ if isset .Params "href" }}
+	<a 
+		class="btn btn-default btn-sm active"
+		href="{{ .Params.href | absURL }}"
+		role="button"
+		target="_blank">
+		View
+	</a>
+{{ end }}
+{{ .Content }}

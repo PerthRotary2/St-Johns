@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="container">
+  <div class="row">        
+    <div class="col-md-8 post">
+      {{ range (where .Site.Pages "Section" "post") }}
+        {{ range .Pages }}
+          {{ .Render "item" }}
+          <hr>
+        {{ end }}
+      {{ end }}
+    </div>
+        
+    <div class="col-md-4">
+      {{ range (where .Site.Pages "Section" "info") }}
+        {{ range .Pages }}
+          {{ .Render "item" }}
+          <hr>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+  {{ partial "footer" .}}
+  {{ partial "script.html" . }}
+{{ end }}

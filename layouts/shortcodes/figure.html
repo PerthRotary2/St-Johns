@@ -1,0 +1,4 @@
+<figure class="figure float-{{ .Get "float" }} ml-3 mr-3 mb-3">
+    <img src={{ .Get "src" | absURL }} class="figure-img img-fluid" alt={{ .Get "alt" }}>
+    <figcaption class="figure-caption">{{ .Get "caption" }}</figcaption>
+</figure>  

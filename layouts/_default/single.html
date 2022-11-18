@@ -1,0 +1,13 @@
+{{ define "main" }}
+		
+	<div class="container">
+		
+		<h1>{{ .Title }}</h1>
+		{{ if isset .Params "image" }}
+			<img src="{{ .Params.image | absURL }}" class="img-fluid">
+		{{ end }}
+		{{ .Content }}
+	</div>
+
+	{{ partial "script.html" . }}
+{{ end }}

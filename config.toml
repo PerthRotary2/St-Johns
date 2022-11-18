@@ -1,0 +1,59 @@
+languageCode = "en-gb"
+title = "Perth St Johns"
+baseURL = "https://perthsjrotary.org.uk/"
+disablePathToLower = true
+
+[params]
+  locale = 'en_GB'
+  mainSections = ['blog', 'post']
+  siteDescription = "We're a vibrant Rotary club serving Perth (Scotland), and enjoying good fellowship. New members welcomed."
+
+[permalinks]
+  archive = '/:sections[1:]/:filename'
+  blog = '/:filename'
+  more = '/:filename'
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  url = '/'
+  weight = 10
+[[menu.main]]
+  name = 'About Us'
+  pageRef = 'about'
+  url = '/about'
+  weight = 20
+[[menu.main]]
+  parent = 'About Us'
+  name = 'Our Club'
+  pageRef = 'our-club'
+  url = '/our-club'
+  weight = 22
+[[menu.main]]
+  parent = 'About Us'
+  name = 'Beneficiaries'
+  pageRef = 'beneficiaries'
+  url = '/beneficiaries'
+  weight = 24
+[[menu.main]]
+  parent = 'About Us'
+  name = 'Trust Fund'
+  pageRef = 'trust-fund'
+  url = '/trust-fund'
+  weight = 26
+[[menu.main]]
+  name = 'Contacts'
+  pageRef = 'contacts'
+  url = '/contacts'
+  weight = 30
+[[menu.main]]
+  name = 'Diary'
+  pageRef = 'diary'
+  url = '/diary'
+  weight = 40
+[[menu.main]]
+  name = 'Archive'
+  pageRef = 'archive'
+  url = '/archive'
+  weight = 50

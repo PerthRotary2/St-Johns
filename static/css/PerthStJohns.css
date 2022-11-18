@@ -1,0 +1,311 @@
+/* Page header */
+
+#title {
+	color:#17458f; font-size:32px; font-weight:700; font-family: Open Sans Condensed, Arial Narrow, sans-serif;
+	position:absolute;
+	top:24px;
+}
+
+#title-xs {
+	color:#17458f; font-size:32px; font-weight:700; font-family: Open Sans Condensed, Arial Narrow, sans-serif;	
+}
+
+#headerrow {
+	background:#e7e7e8;
+	position:relative;
+	padding:0;
+	margin:0;
+	border-width:0;
+}
+
+#logo {
+	vertical-align:top;
+	border-width:0;
+	padding:0;
+	margin:0;
+}
+
+#logo-2 {
+	border-width:0;
+	padding:0;
+	margin:0;
+	position:relative;
+    float:right;
+}
+
+#logo-2 a:hover {
+    background: none;
+}
+
+/* General styles */
+
+h1 {
+	color:#0050a2; font-size:24px; font-weight:bold; font-family: Open Sans Condensed, Arial Narrow, sans-serif;
+}
+
+h2 {
+	color:#0050a2; font-size:18px; font-weight:bold; font-family: Open Sans, Arial, sans-serif;
+}
+
+h3 {
+	color:#0050a2; font-size:16px; font-weight:bold; font-family: Open Sans, Arial, sans-serif;
+}
+
+h3.flash {
+	color:red;
+}
+
+td {
+	vertical-align:top;
+	padding:6px;
+}
+
+td.highlight {
+	font-weight: bold;
+}
+
+td.month, td.year {
+	color:#005DAA; font-size:16px; font-weight:bold; font-family: Open Sans, Arial, sans-serif; padding:4px;
+}
+
+th {
+	padding:6px;
+	text-align:left;
+	vertical-align:top;
+}
+
+tr.divider {
+	border-top-style: solid; border-color: #e7e7e7; border-width: 1px;
+}
+
+.no-hover:hover {
+    text-decoration: none;
+}
+
+.more:hover {
+    text-decoration: underline;
+}
+
+.more {
+	font-weight:bold;
+}
+
+div.post p:first-of-type {
+    font-weight: 550;
+}
+
+/* Header styles */
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+}
+
+
+/* Sticky footer (from Bootstrap) */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #f8f8f8;
+  border-top:1px solid #e7e7e7;
+}
+
+/* Footer styles */
+
+.footer, .footnote div {
+	color:#005daa; 
+	font-size:8pt;
+	padding:10px;
+	margin:0;
+}
+
+.footer div.text-left {
+	float:left;
+	text-align:left;
+}
+
+.footer a {
+	color:#005daa;
+	float:left; 
+	font-size:8pt;
+	padding:10px;
+	margin:0;
+	text-align:left;
+}
+
+/* Facebook link */
+
+div.facebook img {
+    padding: 20px 20px 20px 20px;
+}
+
+div.facebook a:hover {
+    background: none;
+}
+
+div.facebook span {
+	font-size:16px;
+}
+
+/* Archive */
+
+.archive-item {
+	color: black;
+}
+
+.archive-item:hover {
+    text-decoration: none;
+}
+
+.archive-item h3:hover {
+    text-decoration: underline;
+}
+
+.archive-item div.more {
+	color: #005daa;
+}
+
+
+/* Misc from Hugo Grid-Side */
+
+.black-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cell {
+    position: relative;
+    border: 1px solid #FFF;
+	}
+	
+.center-items {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.fill-container {
+    width: 100%;
+    height: 100%;
+}
+
+.fill-container-width {
+    width: 100%;
+    height: auto;
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+	}
+
+.grayscale:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.grayscale.no-change-on-hover:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.highlight-block {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    text-align: center;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    background-color: rgba(100, 100, 100, 0.5); /* was rgba(240, 95, 64, 0.5) */
+    opacity: 0.0;
+    transition: all 0.35s;
+}
+
+.highlight-block:hover {
+    opacity: 1.0;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.no-display {
+    display: none;
+}
+
+.fullsize-background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+	background-position: center;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+/* Masonry (masonry.desandro.com) */
+
+.grid-sizer,
+.grid-item { width: 25%; }
+
+.m-grid-content {
+	background-color: #e7e7e8;
+	padding-top: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.m-grid, .grid-text {
+	background-color: white;
+	
+}
+

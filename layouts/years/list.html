@@ -1,0 +1,52 @@
+{{ define "main" }}
+<div class="container">
+				
+	<h1>{{ .Title }}</h1>
+		
+	<div class="row">
+		{{- range .Data.Pages.ByDate }}
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+				<a href="{{ if .Params.disable }}#!{{ else }}{{ .Permalink }}{{ end }}">
+					<div style="width:100%; padding-bottom:100%;">
+						<div class="
+							fill-container
+							{{ if or .Params.grayscale .Params.disable }}grayscale{{ end }}
+							{{ if .Params.disable }}no-change-on-hover{{ end }}
+							{{ if .Params.image }}fullsize-background-image{{ end }}
+						" style="
+							{{ with .Params.image }}
+								background-image: url('{{ . | absURL }}');
+							{{ else }}
+								background-color: {{ .Params.color }};
+							{{ end }}
+							
+							{{ with .Params.image_position }}
+								background-position: {{ . }};
+							{{ end }}
+							position:absolute;
+							border: 5px solid #FFF;
+							">
+							
+							<!-- Show text permanently -->
+							{{ if eq .Params.always_show_text true }}
+								<div class="center-items center-text fill-container black-overlay">
+									<h2 class="white-text">{{ .Title }}</h2>
+								</div>
+							{{ end }}
+
+							{{ if not (or (eq .Params.no_highlight true) .Params.disable) }}
+								<div class="highlight-block">
+									<h2 class="white-text">{{ .Title }}</h2>
+								</div>
+							{{ end }}
+						</div>
+					</div>
+				</a>
+			</div>
+		{{- end }}
+	</div>
+
+	<div>{{ .Content }}</div>
+	<hr>
+</div>
+{{ end }}

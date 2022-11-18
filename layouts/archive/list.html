@@ -1,0 +1,53 @@
+{{ define "main" }}
+	<!-- For Masonry under Bootstrap see http://masonry.desandro.com/extras.html -->
+	<div class="container">
+		
+		<h1>{{ .Title }}</h1>
+		<div class="grid-text">{{ .Content }}</div>
+		<div class="m-grid row">
+			
+			<!-- sizing elementfor columnWidth -->
+			<div class="m-grid-sizer col-xs-12 col-sm-6 col-md-4 col-lg-3" ></div>
+		
+			{{- range .Data.Pages.ByDate }}
+			
+				<!-- items use Bootstrap .col classes -->
+				<div class="m-grid-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+					
+					<!-- wrap each item in its own element -->
+					<div class="m-grid-content">
+						{{ .Render "item" }}
+					</div>
+				</div>
+			{{- end }}
+		</div>
+		<hr>
+	</div>	
+    
+{{ partial "script.html" . }}
+
+<!-- Masonry cascading grid layout -->
+<script src="https://unpkg.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+
+<script type="text/javascript">
+
+	$(document).ready(function() {
+
+		var $mgrid = $('.m-grid');
+		
+		$mgrid.imagesLoaded( function() {
+		
+			// init Masonry after all images have loaded
+			$mgrid.masonry({
+				itemSelector: '.m-grid-item', // use a separate class, other than .col
+				columnWidth: '.m-grid-sizer',
+				percentPosition: true,
+				transitionDuration: 0
+			});
+		});
+	});
+
+</script>
+{{ end }}

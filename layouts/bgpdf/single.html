@@ -1,0 +1,8 @@
+{{ define "main" }}
+			
+	<h2>{{ .Title }}</h2>
+	<a href="{{ .Params.file | absURL }}" class="btn btn-primary btn-sm active" role="button">read</a>
+	<div>{{ .Content }}</div>
+		
+	{{ partial "script.html" . }}
+{{ end }}

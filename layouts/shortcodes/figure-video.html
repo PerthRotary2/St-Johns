@@ -1,0 +1,7 @@
+<figure class="figure float-{{ .Get "float" }} ml-3 mr-3 mb-3">
+    <video class="embed-responsive-item" height="315" width="525" controls>
+        <source src="{{ .Get "src" | absURL }}" poster="{{ .Get "poster" }}" type="video/mp4">
+        You need an updated browser to see the video.
+    </video>
+    <figcaption class="figure-caption">{{ .Get "caption" }}</figcaption>
+</figure>

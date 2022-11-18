@@ -1,0 +1,5 @@
+<h1>{{ .Title }}</h1>
+{{ if isset .Params "image" }}
+    <img src="{{ .Params.image | absURL}}" class="img-fluid mb-3" alt="{{ .Params.alt }}">
+{{ end }}
+<div>{{ .Content }}</div>
