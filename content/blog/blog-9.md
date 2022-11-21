@@ -23,6 +23,6 @@ Our attitude is about as far from formal as any might imagine. We greatly enjoy 
 So do come along and share a lunch or a Zoom meeting with us all to see what we are made of.
 We are all of the opinion that with these hard days at work we need a short break to talk to friends and gain from their understanding and opinions.
 
-More Rotary myth-busting on our [Facebook Page]("https://www.facebook.com/perthsjrotary/").
+More Rotary myth-busting on our [Facebook page](https://www.facebook.com/perthsjrotary/).
 
 *Michael Archibald*

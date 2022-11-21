@@ -85,10 +85,10 @@ to the Food Bank since April, with donations totalling £1,095 so far.
 ## How YOU can help >>>
 
 - You can help the Foodbank today by donating to them. All donations, however big or small, will make an important
-difference. You can donate [here]("https://perthkinross.foodbank.org.uk/give-help/donate-money/").
+difference. You can donate [here](https://perthkinross.foodbank.org.uk/give-help/donate-money/).
 - Alternatively, why not pick up a few food items next time you’re shopping? Tesco and ASDA in Perth have collection
 points where you can drop off food items. Click
-[here]("https://perthkinross.foodbank.org.uk/give-help/donate-food/") to see the urgently needed items.</li>
+[here](https://perthkinross.foodbank.org.uk/give-help/donate-food/) to see the urgently needed items.</li>
 - Or you can simply share [this article]({{< ref "blog-3" >}}) on your social media to help raise awareness of this important charity. **Please share!**
 
 Thank you for any support you can give.

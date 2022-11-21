@@ -2,7 +2,7 @@
 title: Early days
 date: 2020-06-15
 ---
-You may have read about our club’s involvement with the Foodbank (on our [Facebook page]("https://www.facebook.com/perthsjrotary/") but today I am going to give you a few thoughts of the early days of Perth St Johns.
+You may have read about our club’s involvement with the Foodbank (on our [Facebook page](https://www.facebook.com/perthsjrotary/) but today I am going to give you a few thoughts of the early days of Perth St Johns.
 
 Our club, whilst being involved in the international work of Rotary International, is only a small club today.  And over the years we have really kept away
 from huge projects and concentrated on local help wherever this need occurs.

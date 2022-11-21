@@ -6,4 +6,4 @@ alt: Rotarians in front of our Perth Show stand
 ---
 Our stand at the Perth Show featured a treasure map. We thank everyone who took a guess at the treasure location, or just stopped to chat.
 
-We also displayed a [Shelter Box]("https://www.shelterbox.org") tent and contents, as used for disaster relief.
+We also displayed a [Shelter Box](https://www.shelterbox.org) tent and contents, as used for disaster relief.
