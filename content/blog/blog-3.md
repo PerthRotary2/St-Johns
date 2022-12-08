@@ -2,7 +2,7 @@
 title: A Story of Food Poverty, Charity and Working Together
 date: 2020-06-19
 ---
-**Food** . We often take it for granted. We wake up each day to food in our cupboards.  If we need something, we pop to the shops. 
+**Food**. We often take it for granted. We wake up each day to food in our cupboards.  If we need something, we pop to the shops. 
 When we want to enjoy a meal out, we treat ourselves, often without a second thought. But across the UK, UNICEF estimates
 that 2.5 million British children (that’s 19% of children) live in ‘food insecure’ households. This means there are times
 when the family doesn’t have enough money to buy food or cannot buy the full variety of foods needed for a healthy diet.
@@ -82,7 +82,7 @@ remains on those most in need, who cannot afford to feed themselves.
 As a Rotary Club, we were keen to help in this difficult period and our members have donated their weekly lunch money
 to the Food Bank since April, with donations totalling £1,095 so far.
 
-## How YOU can help >>>
+## How YOU can help
 
 - You can help the Foodbank today by donating to them. All donations, however big or small, will make an important
 difference. You can donate [here](https://perthkinross.foodbank.org.uk/give-help/donate-money/).
