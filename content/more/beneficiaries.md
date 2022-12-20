@@ -2,7 +2,7 @@
 title: Causes Supported
 description: Beneficiaries in Recent Years
 ---
-We've donated £12,400 and supported 22 charitable causes in the last three years (2019-2022).
+We've donated £12,500 and supported 22 charitable causes in the last three years (2019-2022).
 
 {{< divsafe class="row" >}}
 	{{< div class="col-md-6" >}}
@@ -12,19 +12,17 @@ We've donated £12,400 and supported 22 charitable causes in the last three year
 | --- | ---: |
 | Andy's Man Club | £ 235 |
 | Churches Action for the Homeless (CATH) | £ 615 |
-| CrossReach | £230 |
+| CrossReach | £ 230 |
 | The Lighthouse for Perth | £ 500 |
-| Luncarty Guides | £ 310 |
 | Perth &amp; Kinross Association of Voluntary Services | £ 1,500 |
 | PKAVS Walled Garden repainting | £ 35 |
 | Perth &amp; Kinross Food Bank | £ 725 |
 | Perth Festival of the Arts | £ 300 |
 | Perth Indigent Old Men's Society | £ 230 |
-| Perthshire Musical Festival Association | £100 |
 | Perthshire Women's Aid | £ 250 |
-| Primary Schools Quiz | £ 85 |
+| Primary Schools Quiz | £ 480 |
 | Rotary Youth Leadership Award | £ 250 |
-| Starter Packs Perth | 400 |
+| Starter Packs Perth | £ 400 |
 | **TOTAL** | **£ 5,750** |
 
 	{{< /div >}}
@@ -43,7 +41,7 @@ ___
 | | |
 | --- | ---: |
 | Global Sight Solutions | £ 135 |
-| Global Support Link | £1,500 |
+| Global Support Link | £ 1,500 |
 | RIBI Disaster Recovery Trust (for Australia) | £ 600 |
 | Rotary Foundation | £ 890 |
 | Rotary Shoeboxes | £ 405 |
