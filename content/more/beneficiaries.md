@@ -16,13 +16,14 @@ We've donated £12,400 and supported 22 charitable causes in the last three year
 | The Lighthouse for Perth | £ 500 |
 | Luncarty Guides | £ 310 |
 | Perth &amp; Kinross Association of Voluntary Services | £ 1,500 |
+| PKAVS Walled Garden repainting | £ 35 |
 | Perth &amp; Kinross Food Bank | £ 725 |
 | Perth Festival of the Arts | £ 300 |
 | Perth Indigent Old Men's Society | £ 230 |
 | Perthshire Musical Festival Association | £100 |
 | Perthshire Women's Aid | £ 250 |
 | Primary Schools Quiz | £ 85 |
-| Rotary Youth Leadership Award | £ 1,300 |
+| Rotary Youth Leadership Award | £ 250 |
 | Starter Packs Perth | 400 |
 | **TOTAL** | **£ 5,750** |
 
@@ -33,7 +34,7 @@ We've donated £12,400 and supported 22 charitable causes in the last three year
 ## National
 | | |
 | --- | ---: |
-| Epilepsy Research UK< | £ 485 |
+| Epilepsy Research UK | £ 485 |
 | PDSA | £ 750 |
 | **TOTAL** | **£ 1,235** |
 ___
@@ -46,6 +47,7 @@ ___
 | RIBI Disaster Recovery Trust (for Australia) | £ 600 |
 | Rotary Foundation | £ 890 |
 | Rotary Shoeboxes | £ 405 |
+| Send a Cow | £ 750 |
 | ShelterBox Trust | £ 1,180 |
 | **TOTAL** | **£5,460** |
 ___

@@ -10,7 +10,7 @@ noindex: true
 | |	Wed 21 | | (no meeting) |
 | |	Wed 28 | | (no meeting) |
 | January | Wed 4 | 13:00 | committees (online only) |
-| | Wed 11 | 12:45 | Dr Rhona Morrison, Forensic Psychologist |
+| | Wed 11 | 12:45 | **Dr Rhona Morrison, Forensic Psychologist** |
 | | Wed 18 | 12:45 | Business meeting |
 | | Wed 25 | 12:45 | Open forum |
 | February | Wed 1 | 13:00 | committees (online only) |
@@ -18,7 +18,7 @@ noindex: true
 | | Wed 15 | 12:45 | Business meeting |
 | | Wed 22 | 12:45 | Open forum |
 | March | Wed 1 | 13:00 | committees (online only) |
-| | Wed 8 | | no meeting |
+| | Wed 8 | | (no meeting) |
 | | Thu 9 | | **Primary Schools Quiz** |
 | | Wed 15 | 12:45 | Business meeting |
 | | Wed 22 | 12:45 | Open forum |
