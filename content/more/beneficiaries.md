@@ -47,7 +47,7 @@ ___
 | Rotary Shoeboxes | £ 405 |
 | Send a Cow | £ 750 |
 | ShelterBox Trust | £ 1,180 |
-| **TOTAL** | **£5,460** |
+| **TOTAL** | **£ 5,460** |
 ___
 		{{< /div >}}
 		{{< divsafe class="float-right">}}
